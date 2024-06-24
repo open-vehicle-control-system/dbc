@@ -10,7 +10,8 @@ You will find the DBC file [here](https://github.com/open-vehicle-control-system
 * You have to send the 0x38B, 0x38C and 0x38D frames on the Yaw network every 10ms before powering up the I Booster to make it work.
 * Once started, you have to set the "external_request" flags on `0x38C` **and** `0x38B` in order to control the brakes (And remove it to stop).
 * The `flow_rate` signal on the `0x38C` frame allows you to control how fast you want to actuate the brakes, il will brake up to 100% unless you set it back to `32256` which is the zero point.
-* You can then monitor the rod progress on `0x39D` to determine when to stop.
+* You have to send a value below the zero point to release the brakes.
+* You can then monitor the rod position on `0x39D` to determine when to stop.
 
 ## Known issues
 
