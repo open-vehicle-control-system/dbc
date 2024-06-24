@@ -1,21 +1,21 @@
-# OVCS - I Booster Gen 2 Tesla Model 3 right hand drive
+# OVCS - I Booster Gen 2 Tesla Model 3 RHD
 
 
-You will find the DBC file [here](/ibooster_gen_2_tesla_model_3_right_hand_drive.dbc).
+You will find the DBC file [here](https://github.com/open-vehicle-control-system/dbc/blob/main/ibooster/ibooster_gen_2_tesla_model_3_right_hand_drive.dbc).
 
 ## Operation principles:
 
-* The I Booster Gen 2 is a electric power brake system used in a lot of different cars. In this specific case we are using a refurbished Testla model 3 RHD.
+* The I Booster Gen 2 is an electric power brake system used in a lot of different cars. In this specific case we are using a refurbished Testla model 3 RHD.
 * The I Booster module is connected to two CAN networks: Yaw and Vehicle.
-* You have to send the 0x38B, 0x38C and 0x38D frames every 10ms before powering up the I Booster to make it work.
-* Once started, you have to set the "external_request" flags on 0x38c AND 0x38b in order to control the brakes (And remove it to stop controlling the brakes).
-* The "flow_rate" signal on the 0x38C frame allows you to control how fast you want to actuate the brake, il will brake up to 100% unless you set it back to '32256' which is the zeop point.
-* You can then monitor the rod progress on 0x39D to determine when to stop.
+* You have to send the 0x38B, 0x38C and 0x38D frames on the Yaw network every 10ms before powering up the I Booster to make it work.
+* Once started, you have to set the "external_request" flags on `0x38C` **and** `0x38B` in order to control the brakes (And remove it to stop).
+* The `flow_rate` signal on the `0x38C` frame allows you to control how fast you want to actuate the brakes, il will brake up to 100% unless you set it back to `32256` which is the zero point.
+* You can then monitor the rod progress on `0x39D` to determine when to stop.
 
 ## Known issues
 
-* The "alert_matrix" frame (0x35D) is reporting an invalid vehicle speed, some flags are probaly missing/wrong in the 0x38B, 0x38C and 0x38D frames.
-* 0x38E and 0x38F are also emitted by the IBooster. Some interesting fault flags are probably available there but not reversed yet.
+* The `alert_matrix` frame (`0x35D`) is reporting an invalid vehicle speed, some flags are probaly missing/wrong in the `0x38B`, `0x38C` or `0x38D` frames.
+* `0x38E` and `0x38F` are also emitted by the IBooster. Some interesting fault flags are probably available there but not reversed yet.
 
 ## Implementation
 
