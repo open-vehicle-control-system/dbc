@@ -1,0 +1,321 @@
+VERSION ""
+
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 861 alert_matrix: 8 Vector__XXX
+ SG_ alertMatrixIndex M : 0|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ microSupplyError m0 : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ HWBISTError m0 : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RAMFault m0 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ flashFault m0 : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ microSafetyFault m0 : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ microSafetyLogicFault m0 : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RBCPUException m0 : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ stackOverUnderFlow m0 : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ systemErrorHook m0 : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OSErrorHook m0 : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ systemTaskOverRun m0 : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OSTaskSchemeError m0 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ systemTaskJitter m0 : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DMATransferError m0 : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ asicOscillatorError m0 : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RBBLMShaftShiftError m0 : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ assertionFault m0 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ unsupportedHW m0 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ supplyASICInitFault m0 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ VPREU5VOutOfRange m0 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ IREFOutOfRange m0 : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ U5VTestFault m0 : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ U5VOutOfRange m0 : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ chargePumpFault m0 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuClockTestFault m0 : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuBistCmdTestFault m0 : 29|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuFastWdTestFault m0 : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuBistFaultCtrFault m0 : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuErrpinCounterFault m0 : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuEnableElLowFault m0 : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ decoupleBitTestFault m0 : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuEnableElHighFault m0 : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuWdStartuptestFault m0 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuEnableHyHighFault m0 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuEnableHyLowFault m0 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MRGPathTestFault m0 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuWdSContinuousError m0 : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuEnContinuousError m0 : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ GTMRefFrequencyError m0 : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ GTMTbuMonError m0 : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ micAsicClkInError m0 : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ micAsicInitTestError m0 : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ micSpiTransferError m0 : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NvMEepromWIP m0 : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ WdhAsicWdErrorCntStuck m0 : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ WdhAsicWdErrorCntLimit m0 : 49|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ WdhAsicWdCmdMissing m0 : 50|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ WdhSwBistConCnt m0 : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ WdhTaskMonConCnt m0 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ VPreExternalFeeding m0 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ecuBandgap m0 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AdcPinTest m0 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AdcSelftestC5P m0 : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AdcPeripheralFault m0 : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ UB6SupplyPathFault m0 : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ UB6PlausiMonFault m0 : 59|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ microRegisterFault m0 : 60|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NvMWriteCycleExceed m0 : 61|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NvMEepromSize m0 : 62|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ NvMMigrationFault m0 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ AswSystemTimeOut m1 : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MICB6TransferError m1 : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ tempSens2ShortToSupply m1 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ tempSens1ShortToGround m1 : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ tempSens2ShortToGround m1 : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ tempSens1ShortToSupply m1 : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ tempSensImplausVoltage m1 : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ chargePumpUndervoltage m1 : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ greasingRoutineFault m1 : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ notShutDownNvMWrite m1 : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ notShutDownNvMRead m1 : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ notShutDownRight m1 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ jumpInAdjustNvMRead m1 : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FindIdleDataNvMWrite m1 : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FindIdleRoutineFault m1 : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ masterCylLengthRead m1 : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ runOutMotorSaturated m1 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ wearOffsetCompNVMRead m1 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ motorTempHighLevel1 m1 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ motorTempHighLevel2 m1 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ travelDeviation m1 : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ motorSpeedDeviation m1 : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ spindlePositionTooHigh m1 : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CANTransceiverHWFault m1 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ supplyUndervoltageLvl3 m1 : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ supplyOvervoltageLvl3 m1 : 29|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rotorSinOutOfRangeLow m1 : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rotorCosOutOfRangeLow m1 : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rotorSinOutOfRangeHigh m1 : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ rotorCosOutOfRangeHigh m1 : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ SMMOneRequestsInit m1 : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ systemStartTimeOut m1 : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ UEXSOvertemperature m1 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ XPASSEchoTimeDeviation m1 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ XPASSTimeOut m1 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ bridgeDriverMonError m1 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ bridgeDriverError m1 : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ bridgeShortedPhase m1 : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ bridgeSwitchInitError m1 : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ current2OffsetHigh m1 : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ current2OffsetLow m1 : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ current1OffsetHigh m1 : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ current1OffsetLow m1 : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ bridgeDriverShort m1 : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LiPSUndervoltage m1 : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LiPS5VSupply m1 : 49|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LiPS2PwmLineHigh m1 : 50|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LiPS2PwmLineLow m1 : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LiPS2PwmTransmission m1 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LiPS1SentLineHigh m1 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LiPS1SentLineLow m1 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LiPS1SentTransmission m1 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LiPS1SentSensor m1 : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ partyBusOff m1 : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ chassisBusOff m1 : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ supplyUndervoltageLvl2 m1 : 59|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ supplyOvervoltageLvl2 m1 : 60|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RPSNvMReadFault m1 : 61|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RPSWrongCalibData m1 : 62|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RPSVectorRangeHigh m1 : 63|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RPSVectorRangeLow m2 : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ RPSVectorOscillating m2 : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ bridgeDriverUnavail m2 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OBDCurrent1OORHigh m2 : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OBDCurrent2OORHigh m2 : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OBDCurrent1OORLow m2 : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ OBDCurrent2OORLow m2 : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ BLMMuxerTimeoutError m2 : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ loadDumpOnFSLTest m2 : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DTSFunctionalRangeLow m2 : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DTSFunctionalRangeHigh m2 : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DTSPlausiCheck1vs2 m2 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DTSOffsetTooLow m2 : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DTSOffsetTooHigh m2 : 17|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty1DLC m2 : 18|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty1Timeout m2 : 19|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty1Checksum m2 : 20|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty1Counter m2 : 21|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty2DLC m2 : 22|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty2Timeout m2 : 23|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty2Checksum m2 : 24|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty2Counter m2 : 25|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty3DLC m2 : 26|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty3Timeout m2 : 27|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty3Checksum m2 : 28|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPparty3Counter m2 : 29|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PSCMotorSizeReadFault m2 : 30|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MLIGainMechReadFault m2 : 31|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ MLITMCAreaReadFault m2 : 32|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ motorTestFault m2 : 33|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PSCGearRatioReadFault m2 : 34|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PSCVoltageImplausible m2 : 35|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PSCImpedanceTooHigh m2 : 36|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ PSCImpedanceTooLow m2 : 37|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ supplyUndervoltageLvl1 m2 : 38|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ supplyOvervoltageLvl1 m2 : 39|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ masterCylPressInvalid m2 : 40|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DTSOffsHighSuspicious m2 : 41|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ FindIdleNvMReadError m2 : 42|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ DTSIDTimeOut m2 : 43|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ powerPackMismatch m2 : 44|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ idlePosNotDetected m2 : 45|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPpEstMaxInvalid m2 : 46|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPVehicleSpeedInvalid m2 : 47|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPpForceBlendInvalid m2 : 48|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPpMcVirtualInvalid m2 : 49|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ ESPqTargetExterInvalid m2 : 50|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CANOvervoltage m2 : 51|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CANUndervoltage m2 : 52|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LVPowerStateTimeout m2 : 53|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LVPowerStateChecksum m2 : 54|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LVPowerStateDLC m2 : 55|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LVPowerStateCounter m2 : 56|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LVOffStateInvalid m2 : 57|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ LVGoingDownInvalid m2 : 58|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 813 ecu_info: 8 Vector__XXX
+ SG_ infoIndex M : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ infoBuildType m10 : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ infoComponentID m10 : 48|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ infoPcbaID m11 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ infoAssemblyID m11 : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ infoUsageID m11 : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ infoBootUdsProtoVersion m20 : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ infoBootloaderCRC m20 : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ infoApplicationCRC m13 : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ infoVariantCRC m22 : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 925 status: 5 Vector__XXX
+ SG_ rod_position : 21|12@1+ (0.015625,-5) [-5|47] "mm" Vector__XXX
+ SG_ internal_state : 18|3@1+ (1,0) [0|6] "" Vector__XXX
+ SG_ driver_brake_apply : 16|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ status : 12|3@1+ (1,0) [0|6] "" Vector__XXX
+ SG_ counter : 8|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ checksum : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 907 vehicle_status: 4 Vector__XXX
+ SG_ checksum : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ unknown1 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ external_brake_request : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ unkonwn2 : 12|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ counter : 8|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ unknown3 : 16|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 908 brake_request: 4 Vector__XXX
+ SG_ checksum : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ unknown1 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ external_request : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ unkonwn2 : 12|2@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ counter : 8|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ flow_rate : 16|16@1+ (1,0) [27136|37376] "" Vector__XXX
+
+BO_ 909 vehicle_alive: 4 Vector__XXX
+ SG_ checksum : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ counter : 8|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ unkown1 : 12|4@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ unkown2 : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 910 ibooster_gen2_unknown1: 8 Vector__XXX
+
+BO_ 911 ibooster_gen2_unknown2: 8 Vector__XXX
+
+
+
+CM_ "Generated by Tesla Firmware Decode @ version 923e442d6230241a259eeb3f415525373d40325c";
+CM_ BO_ 861 "Emitted by the IBooster on vehicle CAN network";
+CM_ BO_ 813 "Emitted by the IBooster on vehicle CAN network";
+CM_ BO_ 925 "Emitted by the IBooster yaw CAN network";
+CM_ SG_ 925 counter "Rolling counter from 0 to 15
+";
+CM_ SG_ 925 checksum "CRC8 SAE J1850";
+CM_ BO_ 907 "Required on the yaw can network to activate the IBooster
+";
+CM_ SG_ 907 checksum "CRC8 SAE J1850";
+CM_ SG_ 907 unknown1 "Works with 0 as value
+";
+CM_ SG_ 907 external_brake_request "Set to true to control braking from CAN, false to leave it up to the driver
+";
+CM_ SG_ 907 unkonwn2 "Works with 0 as value
+";
+CM_ SG_ 907 counter "Rolling counter from 0 to 15";
+CM_ SG_ 907 unknown3 "Works by setting to 0x0005";
+CM_ BO_ 908 "Required on the yaw can network to activate the IBooster
+";
+CM_ SG_ 908 checksum "CRC8 SAE J1850";
+CM_ SG_ 908 unknown1 "0 is a working value
+";
+CM_ SG_ 908 external_request "Must be set to true for the ibooster to accept external requests
+";
+CM_ SG_ 908 unkonwn2 "0 is a working value
+";
+CM_ SG_ 908 counter "Rolling counter between 0 to 15";
+CM_ SG_ 908 flow_rate "Probably linked to the number of ml/s to be injected in the braking system. 32256 being the zero point (maintains the current braking)., Any value above is applying breaking until 100% (slower or faster) and any value below is releasing the braking until 0% (slower or faster). Only taken into account if \"external request\" is set to true on \"vehicle_status\" and \"brake_request\" frames";
+CM_ BO_ 909 "Required on the yaw can network to activate the IBooster
+";
+CM_ SG_ 909 checksum "CRC8 SAE J1850";
+CM_ SG_ 909 counter "Rolling counter from 0 to 15
+";
+CM_ SG_ 909 unkown1 "0 is a working value";
+CM_ SG_ 909 unkown2 "0x0000005047 is a working value";
+CM_ BO_ 910 "Emitted by the IBooster yaw CAN network";
+CM_ BO_ 911 "Emitted by the IBooster yaw CAN network";
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 10000;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_ "GenMsgCycleTime" BO_ 907 10;
+BA_ "GenMsgSendType" BO_ 907 0;
+BA_ "GenMsgCycleTime" BO_ 908 10;
+BA_ "GenMsgSendType" BO_ 908 0;
+BA_ "GenMsgSendType" BO_ 909 0;
+BA_ "GenMsgCycleTime" BO_ 909 10;
+VAL_ 861 alertMatrixIndex 0 "AlertMatrix0" 1 "AlertMatrix1" 2 "AlertMatrix2" ;
+VAL_ 813 infoIndex 0 "DEPRECATED_0" 1 "DEPRECATED_1" 2 "DEPRECATED_2" 3 "DEPRECATED_3" 4 "DEPRECATED_4" 5 "DEPRECATED_5" 6 "DEPRECATED_6" 7 "DEPRECATED_7" 8 "DEPRECATED_8" 9 "DEPRECATED_9" 10 "BUILD_HWID_COMPONENTID" 11 "PCBAID_ASSYID_USAGEID" 13 "APP_CRC" 14 "BOOTLOADER_SVN" 15 "BOOTLOADER_CRC" 16 "SUBCOMPONENT" 17 "APP_GITHASH" 18 "BOOTLOADER_GITHASH" 19 "VERSION_DEPRECATED" 20 "UDS_PROTOCOL_BOOTCRC" 22 "VARIANTCRC" 25 "PACKAGE_PN_1_7" 26 "PACKAGE_PN_8_14" 27 "PACKAGE_PN_15_20" 29 "PACKAGE_SN_1_7" 30 "PACKAGE_SN_8_14" 31 "SUBCOMPONENT_GITHASH" 255 "END" ;
+VAL_ 813 infoBuildType 0 "UNKNOWN_BUILD" 1 "PLATFORM_BUILD" 2 "LOCAL_BUILD" 3 "TRACEABLE_CI_BUILD" 4 "MFG_BUILD" ;
+VAL_ 925 internal_state 0 "no_mode_active" 1 "pre_drive_check" 2 "local_brake_request" 3 "external_brake_request" 4 "diagnostic" 5 "transition_to_iddle" 6 "post_drive_check" ;
+VAL_ 925 driver_brake_apply 0 "not_init_or_off" 1 "brakes_not_applied" 2 "driver_applying_brakes" 3 "fault" ;
+VAL_ 925 status 0 "off" 1 "init" 2 "failure" 3 "diagnostic" 4 "active_good_check" 5 "ready" 6 "actuation" ;
+VAL_ 907 external_brake_request 0 "false" 1 "true" ;
+VAL_ 908 external_request 0 "false" 1 "true" ;
+
